@@ -1,0 +1,43 @@
+{
+  "files": {
+    "research/tables/case_candidates.csv": "86c537e8dbdd9392b0353c53fc0fd1aca05f5fd6a9770366a1f701d75bedeb96",
+    "research/tables/contract_coverage.csv": "f4d4a2fd6086bb0c653c5092f03ff3cadc13a0e918438fe75500381824a8b217",
+    "research/tables/grid_500m.csv": "6ccf91f2aa00df53400b33afe2bd71f6182a90466ead9f07a38b42ae4735f914",
+    "research/tables/grid_sensitivity.csv": "a6f041d0817d97fa24cc8085a789fe59dff23e351319330c64e836265dbd0fd1",
+    "research/tables/housing.csv": "b8a645349cf3ba919c09a06f1dbd57183d05b354caedcedc0e170ac1042ce031",
+    "research/tables/housing_groups_2025.csv": "7606de3482055ebcf275057b0e725ade018e72061d8055e6460971229464d5dd",
+    "research/tables/housing_groups_2026.csv": "c444330afee84dd6477d5ec85b203762f6aa2cd39a9c4e2d707a20f8acf2fc63",
+    "research/tables/neighbourhoods.csv": "7e687485867ea92491bdf290c9f6a678e44aa43a9e36c30b4c06b6a164a5975c",
+    "research/tables/overlap_sensitivity.csv": "d8dd67a16cce803aefbcaaee2b3163e038136f9c341e9909a807c36ad5fb9906",
+    "research/tables/platform_account_structure.csv": "34e0d40e3cead41db9a352ee3a0cfbbf41fc47a7892dd6992439ea85e2dedd9b",
+    "research/tables/platform_composition.csv": "77dc187a35a26104c6d8235ceaae7752ebd32f6207804868d31befb3e0cbf558",
+    "research/tables/platform_spatial_coverage.csv": "bab1ef7593ec26c3dfeefcebbc9ccce788646c0145a804fc15ca34c78ebdec7a",
+    "research/tables/rent_long.csv": "0a969dc7674720d39f96f396aab3ed51356aa2c5857c8770582bb625496dc9cd",
+    "research/public/neighbourhoods.geojson": "ff45b5bee90593ad2f609ff77261ee9871a452b7ceb2aa6a8e53802686640143",
+    "research/public/hut.geojson": "9d82f62d1dd1c25b1ba7a3897176e16cc8eed89dcbfe4385163c8b0218c683cf",
+    "research/public/grid.geojson": "b4ba9dd07a4bdbc610adfdcdf76c60fd10a80e13eee664c0fe6834c3e26d36ce",
+    "geography/barcelona_aei_wgs84.geojson": "a96efb28a5bce5e7147d783cfa2056abf0c709ae3c04b12ae2749e0b04443264",
+    "geography/barcelona_analysis_union_wgs84.geojson": "af1c4cffde94389b201694aa318e95878e36711caaa9dc235bf4b1ea6f488cab",
+    "geography/barcelona_barri_73_wgs84.geojson": "8673935c33f9d2ed0a3b602013ad53d7c4a14e058ff4c01d6e10d99941d30aa4",
+    "geography/barcelona_city_wgs84.geojson": "246a34e27da7f84511eb3f029518e1919a57e9bc5cac2782066b69264d77e475",
+    "city-context.geojson": "4f53a7b9498f4bbe61edb2164a3a4d1b04f6e8e0338abe39079dd1167e96e589"
+  },
+  "json_values": {
+    "research/public/summary.json": {
+      "omit": [
+        "/meta/studyConfigHash"
+      ],
+      "sha256": "72fba3c02f18b4a9dfbaeb3c6e1941865a1ef0905e416f403b3a5d714a6b6bec"
+    },
+    "research/public/nonspatial_summary.json": {
+      "omit": [
+        "/meta/studyConfigHash"
+      ],
+      "sha256": "7e10e7f0048f79dbf0e58f7d4a467c76fc34ba60f1c2ccaffb2d0b7299ca68ad"
+    },
+    "qualitative.geojson": {
+      "omit": [],
+      "sha256": "af444a42fc5371aa847fa27c0008c8455b9035cbdd3f1bbde1e62a3a9afd3853"
+    }
+  }
+}

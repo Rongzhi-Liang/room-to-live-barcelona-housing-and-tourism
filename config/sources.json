@@ -1,0 +1,566 @@
+{
+  "checked_date": "2026-09-06",
+  "sources": [
+    {
+      "source_id": "eljardi_bonaplata",
+      "url": "https://diarieljardi.cat/wp-content/uploads/2024/07/ElJardi_107_juny_2024.pdf#page=6",
+      "title": {
+        "en": "Printed edition · June 2024, page 6",
+        "zh": "报纸版 · 2024年6月，第6版"
+      },
+      "date": "2024-06",
+      "event_date": "2024-03/2024-05",
+      "status": "dated_report",
+      "scope": "Sarrià; Carrer de Bonaplata",
+      "paraphrase": {
+        "en": "In May 2024, El Jardí reported that Francesc, a tenant in Barcelona’s Sarrià neighbourhood for thirty years, had received a non-renewal notice. The article reported the owner’s intention to convert the building to tourist accommodation.",
+        "zh": "El Jardí于2024年5月报道，Francesc在巴塞罗那Sarrià街区居住三十年后收到不续租通知。报道同时提到，业主打算将整栋楼改作旅游住宿。"
+      },
+      "page": "June 2024 printed issue 107, page 6",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Updated 2024-05-27. No later tenant outcome or actual conversion established by this report.",
+        "A published interview; no new interview or site visit is claimed.",
+        "Use neighbourhood polygon, not a household pin."
+      ],
+      "publisher": "El Jardí · Sergi Alemany",
+      "original_publication_date": "2024-05-03"
+    },
+    {
+      "source_id": "policy_2026",
+      "url": "https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/144780/1/Pla%20d-Acci%C3%B3%20de%20Govern%202023-2027%20-%20actualitzat%20a%20Febrer%202026.pdf",
+      "title": "Pla d’Acció de Govern 2023–2027, actualitzat a Febrer 2026",
+      "date": "2026-02",
+      "event_date": "2028-11",
+      "status": "future_policy_target",
+      "scope": "Barcelona",
+      "paraphrase": {
+        "en": "The February 2026 city action plan retains November 2028 as the target for ending tourist-home use and returning these properties to residential use.",
+        "zh": "2026年2月更新的市府行动计划仍以2028年11月为目标，结束这类住宅的旅游住宿用途，使其重新用于居民居住。"
+      },
+      "page": "35 (planning reference; target paragraph checked in indexed official text)",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Do not report planned extinction or residential recovery as already achieved.",
+        "The plan figure of 10,101 is not substituted for the frozen register count.",
+        "Direct PDF opening is still an access limitation; no full-document review is claimed."
+      ],
+      "publisher": "Ajuntament de Barcelona"
+    },
+    {
+      "source_id": "decree_2023",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-281",
+      "title": "Decreto-ley 3/2023, de 7 de noviembre",
+      "date": "2023-11-08",
+      "event_date": "2023-11-09",
+      "status": "enacted_framework",
+      "scope": "Catalonia; Barcelona included in annex",
+      "paraphrase": {
+        "en": "A planning-licence framework applies in listed municipalities. The transitional regime includes a conditional, requested extension.",
+        "zh": "列明城市适用规划许可制度；过渡条款包含须申请并符合条件的延长机制。"
+      },
+      "page": "Article 1; transitional provision 2; final provision 2; annex Barcelona",
+      "license": {
+        "name": "Official legal text; cite BOE and provision",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "The city target, statutory framework, applications and outcomes are distinct.",
+        "No blanket statement that every permit certainly ends without exceptions."
+      ]
+    },
+    {
+      "source_id": "court_2025",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-7430",
+      "title": "Sentencia 64/2025, de 13 de marzo",
+      "date": "2025-04-11",
+      "event_date": "2025-03-13",
+      "status": "judgment",
+      "scope": "Catalonia legal framework",
+      "paraphrase": {
+        "en": "The court dismissed the challenge to Catalonia’s planning-permission rules for tourist homes. The judgment was delivered on 13 March 2025 and published on 11 April.",
+        "zh": "法院驳回了对加泰罗尼亚旅游住房规划许可制度的违宪诉讼。判决作于2025年3月13日，4月11日刊登于官方公报。"
+      },
+      "page": "Decision / Fallo",
+      "license": {
+        "name": "Official judgment; cite ECLI:ES:TC:2025:64",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "A ruling on the decree is not evidence that all later municipal implementation disputes are resolved."
+      ],
+      "publisher": "Tribunal Constitucional de España / Boletín Oficial del Estado"
+    },
+    {
+      "source_id": "allocation_resolution",
+      "url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/ofhreghabitatge/ShowFile.do?ruta=Resoluci%C3%B3_inici_diputacio640887399512248928.pdf",
+      "title": "Resolució d’aprovació de les bases i inici del procediment: Diputació 354, Exp. 25CHB15",
+      "date": "2025-12-05",
+      "event_date": "2025-12-05",
+      "status": "allocation_procedure_opened",
+      "scope": "Diputació 354; la Dreta de l’Eixample",
+      "paraphrase": {
+        "en": "The housing consortium approved the rules and opened the allocation procedure for 22 homes; the antecedents record an IMHAB communication on 1 September 2025.",
+        "zh": "住房联合机构批准规则并启动 22 套住房的分配程序；前述事实记载了 IMHAB 于 2025 年 9 月 1 日的通知。"
+      },
+      "page": "1–2",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Resolution date cross-checked against the official later resolution summarising chronology.",
+        "Opening allocation does not establish lease signature or occupancy."
+      ]
+    },
+    {
+      "source_id": "allocation_bases",
+      "url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/ofhreghabitatge/ShowFile.do?ruta=BASES_DIPUTACIO_354_VDEF8159365651548724126.pdf",
+      "title": "Bases específiques: 22 habitatges de lloguer assequible per a joves, Diputació 354",
+      "date": "2025-12-05",
+      "event_date": "2025-12-05",
+      "status": "allocation_rules",
+      "scope": "Diputació 354; nearby-neighbourhood territorial reserve",
+      "paraphrase": {
+        "en": "The rules set 22 homes, €10.65/m² monthly base rent and at least seven-year leases. Some habitability works were complete and others ongoing.",
+        "zh": "规则列明 22 套住房、每平方米每月 10.65 欧元基础租金与至少七年租约；部分居住条件整修已完成，部分仍在进行。"
+      },
+      "page": "2: works and reserve; 3: rent and lease; 4: eligibility",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Rent excludes approximately €35 monthly community/tax charges and tenant utilities.",
+        "Eligibility is age 35 or younger at 2025-12-04, not strictly younger than 35.",
+        "Six homes form the territorial reserve; use the actual count rather than treating 25% as exact 22×0.25.",
+        "No inferred income-burden measurement for the rest of Barcelona."
+      ]
+    },
+    {
+      "source_id": "allocation_draw",
+      "url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/ofhreghabitatge/ShowFile.do?ruta=Resultat+sorteig+Diputaci%C3%B32775034735088921294.pdf",
+      "title": "Resultat del sorteig: 22 habitatges de lloguer assequible per a joves, Diputació 354",
+      "date": null,
+      "event_date": "2026-03-30",
+      "status": "draw_documented",
+      "scope": "Diputació 354 allocation event",
+      "paraphrase": {
+        "en": "The official result header identifies a draw held on 30 March 2026 for the 22-home programme.",
+        "zh": "官方结果标题确认，22 套住房项目的抽签于 2026 年 3 月 30 日举行。"
+      },
+      "page": "1, heading only",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "No names, identity fragments, application numbers or applicant-level records are reproduced.",
+        "A draw is not proof of lease signature or occupancy."
+      ]
+    },
+    {
+      "source_id": "allocation_detail",
+      "url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/ofhreghabitatge/promociones/MostrarDetallePromocion.do?idPromocion=72",
+      "title": "Informació Promoció: Diputació, 354",
+      "date": null,
+      "event_date": "2026",
+      "status": "published_project_forecast",
+      "scope": "Diputació 354",
+      "paraphrase": {
+        "en": "The municipal register identifies 22 rental homes promoted by IMHAB and states expected completion during 2026.",
+        "zh": "市府登记页列明 IMHAB 的 22 套租赁住房，并注明预计于 2026 年完成。"
+      },
+      "page": "General project information",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "The page gives a forecast, with no explicit final completion date.",
+        "Do not treat this undated page as overriding the dated draw record."
+      ]
+    },
+    {
+      "source_id": "favb_2026",
+      "url": "https://favb.cat/noticies/la-favb-alerta-que-el-lobby-dels-pisos-turistics-vol-esquivar-lextincio-de-llicencies-el-2028/",
+      "title": "La Favb alerta que el lobby de pisos turístics vol esquivar l’extinció de llicències el 2028",
+      "date": "2026-07-15",
+      "event_date": "2026-07-15",
+      "status": "organisation_position",
+      "scope": "Barcelona; named neighbourhoods are discussed but this is a citywide statement",
+      "paraphrase": {
+        "en": "FAVB argues that ending licences requires measures to secure actual residential use, and raises concerns about extensions and alternative accommodation uses.",
+        "zh": "FAVB 主张，结束许可还需配套措施确保实际住宅用途，并提出关于延长许可与替代住宿用途的担忧。"
+      },
+      "page": "Propostes per garantir el retorn a l’habitatge",
+      "license": {
+        "name": "CC BY-NC-SA; site footer identifies 4.0",
+        "url": "https://favb.cat/avis-legal/",
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Organisational advocacy, not an independent causal result or a local interview.",
+        "Its totals and valuations are not copied into the quantitative maps.",
+        "No reuse of its photographs, maps or charts in this package."
+      ]
+    },
+    {
+      "source_id": "abdt_2024",
+      "url": "https://assembleabarris.wordpress.com/2024/11/20/labdt-presenta-el-mapa-web-cases-o-turisme/",
+      "title": "L’ABDT presenta el mapa web Cases o Turisme",
+      "date": "2024-11-20",
+      "event_date": "2024-11-20",
+      "status": "organisation_position",
+      "scope": "Barcelona",
+      "paraphrase": {
+        "en": "ABDT introduced a tourism-accommodation map and called for housing outcomes beyond a reduction in tourist use.",
+        "zh": "ABDT 发布旅游住宿地图，并主张用途减少之外还应确保住房结果。"
+      },
+      "page": "Opening and concluding paragraphs",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "The statement is historical advocacy. Its 2029 wording does not define the current city target.",
+        "Its characterisation of seasonal-rental regulation is not reused as a current legal fact.",
+        "Tourist beds are not counted as residential dwellings; no source map or image copied."
+      ]
+    },
+    {
+      "source_id": "garcia_2020",
+      "url": "https://doi.org/10.1016/j.jue.2020.103278",
+      "title": "Do short-term rental platforms affect housing markets? Evidence from Airbnb in Barcelona",
+      "date": "2020-09-09",
+      "event_date": "2007/2017",
+      "status": "peer_reviewed_research",
+      "scope": "Barcelona; 221 Basic Statistical Areas in the analysis",
+      "paraphrase": {
+        "en": "The study combines multiple identification designs with detailed housing-market and Airbnb data. Its causal estimand differs from this project’s descriptive spatial overlap.",
+        "zh": "研究结合多种识别设计与详细住房市场、Airbnb 数据；其因果估计对象不同于本项目的描述性空间重合。"
+      },
+      "page": "1–2: design; 5: geography and data",
+      "license": {
+        "name": "CC BY 4.0; explicitly printed on article page 1",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Open full text: https://ddd.uab.cat/pub/artpub/2020/58bc208b096c/2020_Garcia-L_pez_et_al._JUE.pdf",
+        "The 221 BSA sample is not the 73-barri geography.",
+        "Do not apply historical coefficients to current HUT counts or infer a current policy effect."
+      ]
+    },
+    {
+      "source_id": "rent_regulation_2024",
+      "url": "https://habitatge.gencat.cat/ca/ambits/preus-ingressos-i-zones/limit-preu-lloguer/index.html",
+      "title": "Limitació del preu del lloguer de l’habitatge",
+      "date": "2025-05-20",
+      "event_date": "2024-03-16",
+      "status": "official_policy_context",
+      "scope": "Catalonia tensioned rental-market municipalities",
+      "paraphrase": {
+        "en": "Barcelona’s stressed-market rent limits took effect on 16 March 2024. In general, a new residential lease is capped by the updated previous rent; large landlords also face the state reference-price ceiling. Specific legal exceptions apply.",
+        "zh": "巴塞罗那自2024年3月16日起实施住房市场紧张地区的租金限制。新住宅租约的租金一般以此前租约依法调整后的租金为上限；大业主还须遵守国家参考租金上限。法律另有特定例外。"
+      },
+      "page": null,
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "A contemporaneous institutional change; it does not establish the cause of an observed series break."
+      ],
+      "publisher": "Generalitat de Catalunya",
+      "links": [
+        {
+          "label": {
+            "en": "Official explanation of new-lease rent limits",
+            "zh": "新租约租金上限的官方说明"
+          },
+          "url": "https://habitatge.gencat.cat/ca/ambits/preus-ingressos-i-zones/limit-preu-lloguer/preguntes-frequents-zmrt/"
+        },
+        {
+          "label": {
+            "en": "Municipality list · Barcelona, 16 March 2024",
+            "zh": "适用城市名单 · 巴塞罗那，2024年3月16日"
+          },
+          "url": "https://habitatge.gencat.cat/web/.content/home/ambits_dactuacio/Zones_preus/Arees_i_zones_de_referencia/Municipis_Tensat.pdf"
+        }
+      ]
+    },
+    {
+      "source_id": "rental_rules_2026",
+      "url": "https://incasol.gencat.cat/ca/serveis-i-tramits/fiances-de-lloguers/informacio/preguntes-mes-frequeents",
+      "title": "Preguntes més freqüents: fiances de lloguers",
+      "date": null,
+      "event_date": "2026-01-01/2026-03-26",
+      "status": "official_current_guidance",
+      "scope": "Catalonia; tense-market rental rules",
+      "paraphrase": {
+        "en": "The current FAQ describes 2026 changes for specified temporary/room rentals and an additional reference-price report requirement for later contracts.",
+        "zh": "现行常见问题说明了 2026 年特定临时住宅、房间租赁规则变化，以及较后合同新增的参考价格报告要求。"
+      },
+      "page": null,
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Use only as dated institutional context; detailed eligibility is outside this spatial comparison."
+      ]
+    },
+    {
+      "source_id": "rent_data",
+      "url": "https://habitatge.gencat.cat/ca/dades/indicadors_estadistiques/estadistiques_de_construccio_i_mercat_immobiliari/mercat_de_lloguer/lloguers-barcelona-per-districtes-i-barris/",
+      "title": "Lloguers Barcelona per districtes i barris",
+      "date": null,
+      "event_date": "2019/2025",
+      "status": "official_statistics",
+      "scope": "Barcelona city, districts and neighbourhoods",
+      "paraphrase": {
+        "en": "The page displays 2026 quarterly figures first. Its “Informació detallada → Anual” workbooks contain the historical annual series used here, including 2019–2025. The three files below cover rent per square metre, monthly rent and contract counts.",
+        "zh": "入口页优先展示2026年季度数据；“Informació detallada → Anual”下的年度表包含本项目使用的2019—2025年历史数据。以下三份官方文件分别提供每平方米租金、整套住宅月租金和新登记租约数量。"
+      },
+      "page": "Annual workbooks: year columns C–I give 2025–2019; row 5 for rents, row 4 for contracts.",
+      "license": {
+        "name": "Official open statistics; source-specific reuse terms retained in data manifest",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Published city totals are separate from neighbourhood averages.",
+        "Year-specific quality and suppression rules remain attached to results."
+      ],
+      "publisher": "Generalitat de Catalunya · statistics based on INCASÒL rental deposits",
+      "links": [
+        {
+          "label": {
+            "en": "Annual rent per m² · 2019–2025 included (XLSX)",
+            "zh": "年度每平方米租金 · 含2019—2025年（XLSX）"
+          },
+          "url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_lloguer_m2.xlsx"
+        },
+        {
+          "label": {
+            "en": "Annual monthly rent · 2019–2025 included (XLSX)",
+            "zh": "年度整套住宅月租金 · 含2019—2025年（XLSX）"
+          },
+          "url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_lloguer.xlsx"
+        },
+        {
+          "label": {
+            "en": "Annual registered contracts · 2019–2025 included (XLSX)",
+            "zh": "年度新登记租约数 · 含2019—2025年（XLSX）"
+          },
+          "url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_contractes.xlsx"
+        }
+      ]
+    },
+    {
+      "source_id": "hut_data",
+      "url": "https://opendata-ajuntament.barcelona.cat/data/en/dataset/habitatges-us-turistic",
+      "title": "Tourist housing in the city of Barcelona",
+      "date": null,
+      "event_date": "2026",
+      "status": "official_register_snapshot",
+      "scope": "Barcelona",
+      "paraphrase": {
+        "en": "The municipal tourist-home register provides the records used to count registered tourist homes and locate their concentration across neighbourhoods.",
+        "zh": "市政府旅游住房名录提供本项目的登记记录，用于统计数量，并比较旅游住房在不同街区的集中程度。"
+      },
+      "page": null,
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Registration does not alone prove present operation or occupancy."
+      ],
+      "publisher": "Ajuntament de Barcelona · Open Data BCN"
+    },
+    {
+      "source_id": "cadastre_data",
+      "url": "https://opendata-ajuntament.barcelona.cat/data/en/dataset/est-cadastre-habitatges-superficie",
+      "title": "Number of housing premises by surface area of the city of Barcelona",
+      "date": null,
+      "event_date": "2025/2026",
+      "status": "official_statistics",
+      "scope": "Barcelona neighbourhoods",
+      "paraphrase": {
+        "en": "Official cadastral counts identify units whose main use is housing. The 2025 stock is used for 2025 contract activity; the 2026 stock is used for the 2026 tourist-home register.",
+        "zh": "官方地籍统计记录主要用途为住宅的房屋数量。2025年住宅数量用于计算同年租约相对数量，2026年住宅数量用于计算同年旅游住房登记密度。"
+      },
+      "page": null,
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Residential stock is not equivalent to vacant, rented or occupied stock."
+      ],
+      "publisher": "Ajuntament de Barcelona · Open Data BCN",
+      "links": [
+        {
+          "label": {
+            "en": "2025 residential units (XLSX)",
+            "zh": "2025年住宅数量（XLSX）"
+          },
+          "url": "data/downloads/barcelona_housing_2025.xlsx",
+          "download": "barcelona_housing_2025.xlsx"
+        },
+        {
+          "label": {
+            "en": "2026 residential units (XLSX)",
+            "zh": "2026年住宅数量（XLSX）"
+          },
+          "url": "data/downloads/barcelona_housing_2026.xlsx",
+          "download": "barcelona_housing_2026.xlsx"
+        }
+      ]
+    },
+    {
+      "source_id": "platform_data",
+      "url": "https://insideairbnb.com/get-the-data/",
+      "title": "Inside Airbnb: Get the Data",
+      "date": null,
+      "event_date": "2025-09-14/2026-06-24",
+      "status": "public_platform_snapshots",
+      "scope": "Barcelona; four snapshots",
+      "paraphrase": {
+        "en": "Inside Airbnb collected these publicly visible Airbnb listings in four batches. Each record is a platform listing, with its stated room type and minimum stay; it is not a census of all accommodation in Barcelona.",
+        "zh": "Inside Airbnb分四批采集Airbnb网站公开房源。每条记录是一则房源信息，包含房型和最低入住晚数；这并不是巴塞罗那全部住宿设施的普查。"
+      },
+      "page": null,
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Batch dates and actual scrape windows differ.",
+        "Public output uses aggregates without host names or contact details."
+      ],
+      "publisher": "Inside Airbnb · observations of public Airbnb listings"
+    },
+    {
+      "source_id": "sant_antoni_association",
+      "url": "https://linformatiusantantoni.blogspot.com/2017/06/sobre-lestat-actual-del-barri.html",
+      "title": "Sobre l’estat actual del barri",
+      "date": "2017-06",
+      "event_date": "2017-02/2017-03",
+      "status": "dated_neighbourhood_position",
+      "scope": "Sant Antoni",
+      "paraphrase": {
+        "en": "The neighbourhood association asked that existing residents could remain and younger residents establish a home, and called for social rental housing alongside tourism restrictions.",
+        "zh": "街区居民协会要求现居民能够留下、年轻居民能够安家，并提出旅游限制之外还需要社会租赁住房。"
+      },
+      "page": "SOBRE L’HABITATGE; signed association statement",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Dated February–March 2017 statement, published in June; not a current resident survey.",
+        "The statement supplies neighbourhood context, not a causal explanation of 2025 prices.",
+        "No images or charts copied."
+      ]
+    },
+    {
+      "source_id": "montbau_association",
+      "url": "https://www.veinsmontbau.org/services.html",
+      "title": "Història d’un barri: Montbau",
+      "date": null,
+      "event_date": "1956/1960",
+      "status": "neighbourhood_history",
+      "scope": "Montbau",
+      "paraphrase": {
+        "en": "The association describes Montbau as a planned response to postwar housing needs, with the new neighbourhood inaugurated in 1960.",
+        "zh": "居民协会将 Montbau 描述为回应战后住房需求的规划建设街区，并记载新街区于 1960 年落成。"
+      },
+      "page": "Història d’un barri",
+      "license": {
+        "name": "No blanket reuse licence verified",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "Undated web page; historical events and page retrieval date are distinguished.",
+        "Housing origins do not establish present ownership, affordability or the cause of rent changes.",
+        "No historical image copied."
+      ]
+    },
+    {
+      "date": "2024-06-21",
+      "event_date": "2028-11",
+      "status": "policy_announcement",
+      "scope": "Barcelona",
+      "page": null,
+      "license": {
+        "name": "Official public information",
+        "url": null,
+        "use": "Attributed factual paraphrase and link; no third-party photographs reproduced."
+      },
+      "limits": [
+        "A municipal target does not establish completed conversion, long-term rental entry, affordability or occupancy.",
+        "The May 2024 tenant report predates the June 2024 municipal announcement."
+      ],
+      "source_id": "policy_2024_announcement",
+      "url": "https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/136261/7/Butlleti-de-districte-Gracia_2024-06-28__6.pdf",
+      "title": "Noves mesures per fer front a l’emergència d’habitatge i augmentar l’oferta d’habitatge",
+      "publisher": "Ajuntament de Barcelona · Gràcia district bulletin archive",
+      "paraphrase": {
+        "en": "On 21 June 2024, the city announced that it would not enable tourist-home permissions to continue after the five-year transition, with November 2028 as its target. The stated aim is to return homes to residential use.",
+        "zh": "市府于2024年6月21日宣布，不让旅游住房许可在五年过渡期后继续延续，并以2028年11月为目标，使这些住房重新用于居民居住。"
+      }
+    },
+    {
+      "date": null,
+      "event_date": null,
+      "status": "official_administrative_boundaries",
+      "scope": "Barcelona municipality, 10 districts and 73 neighbourhoods",
+      "page": null,
+      "license": {
+        "name": "CC BY 4.0 under CartoBCN reuse terms",
+        "url": "https://w133.bcn.cat/geoportal/descargas/es_es_cond_us_carto.pdf",
+        "use": "Attributed boundary subset and coordinate transformation."
+      },
+      "limits": [
+        "Product archive date and formal boundary effective date are not interchangeable."
+      ],
+      "source_id": "cartobcn_boundaries",
+      "url": "https://w20.bcn.cat/CartoBCN/",
+      "title": {
+        "en": "CartoBCN map catalogue",
+        "zh": "CartoBCN地图目录"
+      },
+      "publisher": "Ajuntament de Barcelona · CartoBCN",
+      "paraphrase": {
+        "en": "The opening map shows the Barcelona municipal boundary and its 10 administrative districts. The analysis maps use the finer geography of 73 neighbourhoods. Both come from the same official CartoBCN administrative-boundary package.",
+        "zh": "开篇地图显示巴塞罗那市界及10个行政区的区界；后续分析使用更细的73个街区。这两个层级均来自CartoBCN同一份官方行政边界数据包。"
+      }
+    }
+  ],
+  "revised_date": "2026-09-08"
+}

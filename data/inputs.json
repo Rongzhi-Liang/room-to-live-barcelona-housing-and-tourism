@@ -1,0 +1,777 @@
+{
+  "archive": "inputs.zip",
+  "archive_sha256": "f924ba6f97fe983531b188ed5f76da9522e2b844154fc0d92fb7f89a297fc011",
+  "description": "Frozen inputs for the September 2026 Barcelona study. Reduced files are column projections, not original download bytes.",
+  "source_groups": [
+    {
+      "id": "airbnb_2025-09-14",
+      "kind": "airbnb",
+      "landing": "https://insideairbnb.com/get-the-data/",
+      "license": "CC BY 4.0",
+      "license_url": "https://insideairbnb.com/get-the-data/",
+      "raw_path": "raw/inside_airbnb/2025-09-14/listings.csv.gz",
+      "reference": "2025-09-14",
+      "url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2025-09-14/data/listings.csv.gz"
+    },
+    {
+      "id": "airbnb_2025-12-14",
+      "kind": "airbnb",
+      "landing": "https://insideairbnb.com/get-the-data/",
+      "license": "CC BY 4.0",
+      "license_url": "https://insideairbnb.com/get-the-data/",
+      "raw_path": "raw/inside_airbnb/2025-12-14/listings.csv.gz",
+      "reference": "2025-12-14",
+      "url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2025-12-14/data/listings.csv.gz"
+    },
+    {
+      "id": "airbnb_2026-03-21",
+      "kind": "airbnb",
+      "landing": "https://insideairbnb.com/get-the-data/",
+      "license": "CC BY 4.0",
+      "license_url": "https://insideairbnb.com/get-the-data/",
+      "raw_path": "raw/inside_airbnb/2026-03-21/listings.csv.gz",
+      "reference": "2026-03-21",
+      "url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2026-03-21/data/listings.csv.gz"
+    },
+    {
+      "id": "airbnb_2026-06-24",
+      "kind": "airbnb",
+      "landing": "https://insideairbnb.com/get-the-data/",
+      "license": "CC BY 4.0",
+      "license_url": "https://insideairbnb.com/get-the-data/",
+      "raw_path": "raw/inside_airbnb/2026-06-24/listings.csv.gz",
+      "reference": "2026-06-24",
+      "url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2026-06-24/data/listings.csv.gz"
+    },
+    {
+      "id": "hut_current",
+      "kind": "ckan",
+      "landing": "https://opendata-ajuntament.barcelona.cat/data/en/dataset/habitatges-us-turistic",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "raw_path": "raw/ckan/hut_current",
+      "reference": "current register",
+      "resource_id": "b32fa7f6-d464-403b-8a02-0292a64883bf",
+      "publisher": "Ajuntament de Barcelona",
+      "metadata_license_id": "CC-BY-4.0",
+      "metadata_source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/package_show?id=habitatges-us-turistic"
+    },
+    {
+      "id": "housing_2025",
+      "kind": "ckan",
+      "landing": "https://opendata-ajuntament.barcelona.cat/data/en/dataset/est-cadastre-habitatges-superficie",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "raw_path": "raw/ckan/housing_2025",
+      "reference": "2025",
+      "resource_id": "4e5b2877-0ddf-4c6d-b176-9911e2a45881",
+      "publisher": "Ajuntament de Barcelona",
+      "metadata_license_id": "CC-BY-4.0",
+      "metadata_source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/package_show?id=est-cadastre-habitatges-superficie"
+    },
+    {
+      "id": "housing_2026",
+      "kind": "ckan",
+      "landing": "https://opendata-ajuntament.barcelona.cat/data/en/dataset/est-cadastre-habitatges-superficie",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "raw_path": "raw/ckan/housing_2026",
+      "reference": "2026",
+      "resource_id": "3d4590ec-8204-46ed-9d7c-7b0878ff943f",
+      "publisher": "Ajuntament de Barcelona",
+      "metadata_license_id": "CC-BY-4.0",
+      "metadata_source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/package_show?id=est-cadastre-habitatges-superficie"
+    },
+    {
+      "id": "rent_month",
+      "kind": "rent",
+      "landing": "https://habitatge.gencat.cat/ca/dades/indicadors_estadistiques/estadistiques_de_construccio_i_mercat_immobiliari/mercat_de_lloguer/lloguers-barcelona-per-districtes-i-barris/",
+      "license": "Generalitat public information reuse terms; retain table notes",
+      "license_url": "https://web.gencat.cat/ca/avis-legal",
+      "raw_path": "raw/incasol/anual_bcn_lloguer.xlsx",
+      "reference": "annual workbook; years parsed from file",
+      "url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_lloguer.xlsx"
+    },
+    {
+      "id": "rent_m2",
+      "kind": "rent",
+      "landing": "https://habitatge.gencat.cat/ca/dades/indicadors_estadistiques/estadistiques_de_construccio_i_mercat_immobiliari/mercat_de_lloguer/lloguers-barcelona-per-districtes-i-barris/",
+      "license": "Generalitat public information reuse terms; retain table notes",
+      "license_url": "https://web.gencat.cat/ca/avis-legal",
+      "raw_path": "raw/incasol/anual_bcn_lloguer_m2.xlsx",
+      "reference": "annual workbook; years parsed from file",
+      "url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_lloguer_m2.xlsx"
+    },
+    {
+      "id": "contracts",
+      "kind": "rent",
+      "landing": "https://habitatge.gencat.cat/ca/dades/indicadors_estadistiques/estadistiques_de_construccio_i_mercat_immobiliari/mercat_de_lloguer/lloguers-barcelona-per-districtes-i-barris/",
+      "license": "Generalitat public information reuse terms; retain table notes",
+      "license_url": "https://web.gencat.cat/ca/avis-legal",
+      "raw_path": "raw/incasol/anual_bcn_contractes.xlsx",
+      "reference": "annual workbook; years parsed from file",
+      "url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_contractes.xlsx"
+    },
+    {
+      "id": "cartobcn",
+      "landing": "https://w20.bcn.cat/CartoBCN/",
+      "license": "CC BY 4.0",
+      "license_url": "https://w133.bcn.cat/geoportal/descargas/es_es_cond_us_carto.pdf",
+      "attribution": "Fuente de los datos: Ayuntamiento de Barcelona / CartoBCN. Boundary subset and EPSG:4326 transformation. Snapshot 2026-09-06; ZIP member timestamp 2025-02-06; product metadata updated 2020-03-11."
+    }
+  ],
+  "files": [
+    {
+      "path": "raw/ckan/housing_2025/page_000.json",
+      "sha256": "f5c5ba0a289f5365b84a3df982048a625f7ed0e9dc4ce0c36f046e3fbf6cae4f",
+      "bytes": 186597,
+      "source_sha256": "3f46a028c452decff19cb720cea39c5553fc75aa760ac7f6ee86fddf66e14ee1",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=0&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2025/page_001.json",
+      "sha256": "8aee5214f2464d28b8e305e558bd8c6947a274ffff8abba83911853bf11e8f1d",
+      "bytes": 191114,
+      "source_sha256": "b46b74edb5547d6046f54e1f12fcf9c23ca7e197838667b8559022f16e0fcb1f",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=1000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2025/page_002.json",
+      "sha256": "c92ba6ed4c48cf5daec681665ce8b8d6225df30028395503af5b5df0e8441db9",
+      "bytes": 187927,
+      "source_sha256": "29d2665fe1794fa4eb8665203dc064150687cf40ca7809f09b904d71becbbaae",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=2000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2025/page_003.json",
+      "sha256": "e90e80fad9af8c2a2f2290202cc5d75270ad95e2bbcec563a492805e0da784b6",
+      "bytes": 192247,
+      "source_sha256": "7162843b6c414738d1923cfbef40c8fcef6b344994eeaaeac2fd686f1b2bff4a",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=3000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2025/page_004.json",
+      "sha256": "cdc1e74a883b5ace236bb1bbf628656e4fb34b612f5fc5fa4d2c81f3d78355b6",
+      "bytes": 185052,
+      "source_sha256": "a69ca87d60807cc0a93aabbf923e3f2a2f8999babcbafe6cb3b71a7e8640135f",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=4000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2025/page_005.json",
+      "sha256": "8af7b01f94a7421e7fbaca9277e04ba825d286e903138038cb4b14131a846b6d",
+      "bytes": 184705,
+      "source_sha256": "0a23e8e2eb73295ca290d96312d00536b26dfdc8bd30bec76b390ba09c8727fd",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=5000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2025/page_006.json",
+      "sha256": "8aa43ad66ac654d4009c0d9ca75ad9de4015b7cd8ca93e31b46e307932556092",
+      "bytes": 94855,
+      "source_sha256": "6fc0faa77fd6e7e9a86679b74d17851677318c22e29b85af3c0ab3c696e96d7b",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=4e5b2877-0ddf-4c6d-b176-9911e2a45881&limit=1000&offset=6000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 489
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_000.json",
+      "sha256": "c480ec3e3bd973f4282a5c1e870d26f9c5cc8a5a5f99633bf2da9ba3a7477e8b",
+      "bytes": 186664,
+      "source_sha256": "6d5c86b922cbc9475cf41c0cf997f74eee17cf566a216cc7853a4a9ff10959d0",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=0&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_001.json",
+      "sha256": "f4ccb3ac494113b36a407ad620a845ffcdd8fbbfe98e204ace27b9d27fb4f1eb",
+      "bytes": 191033,
+      "source_sha256": "9db297322853bc2a74a26c8989949626d723051ef07444800e7e003c808c089a",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=1000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_002.json",
+      "sha256": "437423202c79c686771ecc5097cd6253ddfa2fa6506832a074f0d6ba648433aa",
+      "bytes": 188080,
+      "source_sha256": "b9b7252f0dce0a577c7b37bc5896f2a358945f9078ffdf250c65c31e3aeb9c87",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=2000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_003.json",
+      "sha256": "3e8456b7a0841b06b05cd5770badc51fd615d06393d1eac3fdc84e4bd3f3ca21",
+      "bytes": 192157,
+      "source_sha256": "bd9b86ab6815c9ff247fd8392a938e1311c107d59d61f17e6d4ec00c61662795",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=3000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_004.json",
+      "sha256": "c8b8f71b7fab56c9038ad979be7a7d5007adbcb4f2d633d9bb05adb3b75633d6",
+      "bytes": 184910,
+      "source_sha256": "0cf1886c502afec830c85ceba60aaf3bc2237cc1ab8ab7b964328416c1054b3f",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=4000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_005.json",
+      "sha256": "e6478a8f899648ef3e555624093fd44b6e7f4b332cf3831ddbe48c8693ea4240",
+      "bytes": 185036,
+      "source_sha256": "d4e3e76b0ae3c8a1dfc5fd04c8d42ede130475757eb08039ae2d70e2efc2ec39",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=5000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/housing_2026/page_006.json",
+      "sha256": "b8ef15d2710437ab36886eedc620894da0d5fe09e84200087566dac04194505b",
+      "bytes": 92033,
+      "source_sha256": "31f8df0fc4ffaa3850bb1f9bdd32671b086730c79a5e28a909bf0fb7fc9d0780",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=3d4590ec-8204-46ed-9d7c-7b0878ff943f&limit=1000&offset=6000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "Any",
+        "Codi_districte",
+        "Nom_districte",
+        "Codi_barri",
+        "Nom_barri",
+        "Seccio_censal",
+        "Desc_sup",
+        "Nombre"
+      ],
+      "rows": 475
+    },
+    {
+      "path": "raw/ckan/hut_current/page_000.json",
+      "sha256": "265d4149a1afe31365079e2228a1245a2c32ea9cd8ec82ef799729b511268c0a",
+      "bytes": 219855,
+      "source_sha256": "b166edd36a4f88a4b015b45cc2c3d0c9fbb7591eb8bfb0ad030e1c4ecca7c245",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=0&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_001.json",
+      "sha256": "4a633ecac199e7b5c51f9f5e79b318e545e4726c5f8a535c8c09e69eb1d1cadf",
+      "bytes": 223642,
+      "source_sha256": "420d07edc9fc16eddd064c32090556237d423d501089a30a79f9028c661a64bd",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=1000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_002.json",
+      "sha256": "76a5f97258dbd9b5770ed6bb4a86da1b301d04d1e939312e4b85177ff5cb3b58",
+      "bytes": 223633,
+      "source_sha256": "0c4ffa9bc9ea8b4005c0edd1dd4b744dfc93e6192e84226944720686108569f7",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=2000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_003.json",
+      "sha256": "3a84cc5bf65c35e477273c7e17448ce48014448c5e1886ffdfc555af874f62b7",
+      "bytes": 223881,
+      "source_sha256": "81bc4ca341c048a342363d256778f4b23b21e87daad0ed23d1df7e45e5babeb4",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=3000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_004.json",
+      "sha256": "b80b69f8eb71a10f641863f8dd58fa26e8ea677ccdf6a8ee3a5f02300c72baf5",
+      "bytes": 224306,
+      "source_sha256": "55f4c589b303b010825f4d32141659ad269702ff336114aef95c4e12b40f3026",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=4000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_005.json",
+      "sha256": "4235e53bc6343c5b7a0fe2b38916616904b237b367367f9f0ecd2e7caeb077e9",
+      "bytes": 220027,
+      "source_sha256": "72cb7d10fe8c528750e63ca92df5592c84de7a420a4bd792c288a45803b2bc4c",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=5000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_006.json",
+      "sha256": "2bd5bc0e0c231b7e0d9cba32c42101fff78172debf601700379aa31fe18092f4",
+      "bytes": 214113,
+      "source_sha256": "b49a32181573ea05760939a88c206003e7605083e072154ddaa5682d305d3f79",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=6000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_007.json",
+      "sha256": "ac72d3611a06a89d49aed979ed70e208f1cd913646e2f56c17f23b06f48d5f7c",
+      "bytes": 220691,
+      "source_sha256": "d72e403ae4908d2e23f905b8f758d35f7c0fcb9763481eb04ebd3f285209557f",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=7000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_008.json",
+      "sha256": "4e63040a5149863ba494357add3f9ea5359c0a399d373dc3857f28b8850b3deb",
+      "bytes": 223383,
+      "source_sha256": "e51348f8e1a3f4b8fa0b1dc33ef5b336991d18a4c859fd060a37df08973da479",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=8000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_009.json",
+      "sha256": "4d95ed8adab638e9b1dd6e45637a4da57ccc5982c144ae5b2665a1a28c565db3",
+      "bytes": 221636,
+      "source_sha256": "4d39c0b4ca3c7653ea30e570f5b089963ab2f941302fb07462cd6864bbeb1e60",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=9000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 1000
+    },
+    {
+      "path": "raw/ckan/hut_current/page_010.json",
+      "sha256": "8b3d3f1ff9e816d228b285e2d2d7bd1a6d9deb27cad1659601ed4c09ad59bdd0",
+      "bytes": 160903,
+      "source_sha256": "16a56baf8783a710be6468624f523178a93866f5c8cfa38016b4015f19c961a0",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/datastore_search?resource_id=b32fa7f6-d464-403b-8a02-0292a64883bf&limit=1000&offset=10000&sort=_id+asc",
+      "retrieved": "2026-09-06",
+      "preparation": "Retained required columns and all rows in original page order; pagination counts preserved.",
+      "columns": [
+        "_id",
+        "N_EXPEDIENT",
+        "NUMERO_REGISTRE_GENERALITAT",
+        "CODI_BARRI",
+        "NOM_BARRI",
+        "LONGITUD_X",
+        "LATITUD_Y",
+        "NUMERO_PLACES"
+      ],
+      "rows": 718
+    },
+    {
+      "path": "raw/geography/cartobcn_extracted/0301100100_UNITATS_ADM_POLIGONS.json",
+      "sha256": "c9eeba9d3aa832c90dd7f0d73916b7d9505ff6c5703e0c05a7f38a5e869af65e",
+      "bytes": 22828486,
+      "source_sha256": "c9eeba9d3aa832c90dd7f0d73916b7d9505ff6c5703e0c05a7f38a5e869af65e",
+      "retrieved": "2026-09-06",
+      "source_url": "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=102.BARCELONA.41",
+      "archive_member": "0301100100_UNITATS_ADM_POLIGONS.json",
+      "preparation": "Unchanged polygon member of the official CartoBCN archive."
+    },
+    {
+      "path": "raw/incasol/anual_bcn_contractes.xlsx",
+      "sha256": "22c2b5ab1c4e4e9e84658fcdd58fcf4f2e43a86e9f0ddc5c2745df1de457ec5b",
+      "bytes": 23259,
+      "source_sha256": "22c2b5ab1c4e4e9e84658fcdd58fcf4f2e43a86e9f0ddc5c2745df1de457ec5b",
+      "source_url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_contractes.xlsx",
+      "retrieved": "2026-09-06",
+      "preparation": "Unchanged source workbook, including original notes and metadata."
+    },
+    {
+      "path": "raw/incasol/anual_bcn_lloguer.xlsx",
+      "sha256": "90d7d307cce4aa5d7378b28a5a2412e3de96b7796959db1224a867e38b31fe57",
+      "bytes": 34202,
+      "source_sha256": "90d7d307cce4aa5d7378b28a5a2412e3de96b7796959db1224a867e38b31fe57",
+      "source_url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_lloguer.xlsx",
+      "retrieved": "2026-09-06",
+      "preparation": "Unchanged source workbook, including original notes and metadata."
+    },
+    {
+      "path": "raw/incasol/anual_bcn_lloguer_m2.xlsx",
+      "sha256": "7abb13a31e02ed8a000ef4903fc3b8801a359690893b6c72b64aa901021e5383",
+      "bytes": 33362,
+      "source_sha256": "7abb13a31e02ed8a000ef4903fc3b8801a359690893b6c72b64aa901021e5383",
+      "source_url": "https://habitatge.gencat.cat/web/.content/home/dades/estadistiques/01_Estadistiques_de_construccio_i_mercat_immobiliari/03_Mercat_de_lloguer/03_Lloguers_Barcelona_per_districtes_i_barris/anual_bcn_lloguer_m2.xlsx",
+      "retrieved": "2026-09-06",
+      "preparation": "Unchanged source workbook, including original notes and metadata."
+    },
+    {
+      "path": "raw/inside_airbnb/2025-09-14/listings.csv.gz",
+      "sha256": "d69dfc7546fcecbcea6e19807ab68e5b81f3b353b1d0c9cd8266f7bca315a8a0",
+      "bytes": 561214,
+      "source_sha256": "f6e61e1d11e301b5d7fbf0888db7037a04fb22df0b44182c04e41075d38abb83",
+      "source_url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2025-09-14/data/listings.csv.gz",
+      "retrieved": "2026-09-06",
+      "preparation": "Column selection; every record and selected field value retained. IDs remain text.",
+      "columns": [
+        "id",
+        "host_id",
+        "room_type",
+        "minimum_nights",
+        "latitude",
+        "longitude",
+        "neighbourhood_cleansed",
+        "last_scraped",
+        "number_of_reviews_ltm",
+        "last_review",
+        "license"
+      ],
+      "rows": 19410
+    },
+    {
+      "path": "raw/inside_airbnb/2025-12-14/listings.csv.gz",
+      "sha256": "b8c1e8ef6d28bd116fe1d14eaa43d5b42c0a1e1617c5e67b8f76911e67e8894b",
+      "bytes": 590160,
+      "source_sha256": "b6b498811bad0f154ccb35ae159dc0140bb047bcc59736cd3ad3cc2319a1f2a8",
+      "source_url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2025-12-14/data/listings.csv.gz",
+      "retrieved": "2026-09-06",
+      "preparation": "Column selection; every record and selected field value retained. IDs remain text.",
+      "columns": [
+        "id",
+        "host_id",
+        "room_type",
+        "minimum_nights",
+        "latitude",
+        "longitude",
+        "neighbourhood_cleansed",
+        "last_scraped",
+        "number_of_reviews_ltm",
+        "last_review",
+        "license"
+      ],
+      "rows": 18177
+    },
+    {
+      "path": "raw/inside_airbnb/2026-03-21/listings.csv.gz",
+      "sha256": "e2dafa3cef974bded748082020187685dcda6e33b0407a2591fbef8474d5ae02",
+      "bytes": 560054,
+      "source_sha256": "7b603588d37874d39be0f692dd33c211f87a61b5d8ae2fab75bdf5078979af12",
+      "source_url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2026-03-21/data/listings.csv.gz",
+      "retrieved": "2026-09-06",
+      "preparation": "Column selection; every record and selected field value retained. IDs remain text.",
+      "columns": [
+        "id",
+        "host_id",
+        "room_type",
+        "minimum_nights",
+        "latitude",
+        "longitude",
+        "neighbourhood_cleansed",
+        "last_scraped",
+        "number_of_reviews_ltm",
+        "last_review",
+        "license"
+      ],
+      "rows": 16107
+    },
+    {
+      "path": "raw/inside_airbnb/2026-06-24/listings.csv.gz",
+      "sha256": "0e862059e638c95d87840b6fd256255a2c98e5a717f89c59d6d536b05c7af7fe",
+      "bytes": 563010,
+      "source_sha256": "aefc9848413a265973255a3ba6e43b650b645f9ee558a2474912e9c9d06a77fa",
+      "source_url": "https://data.insideairbnb.com/spain/catalonia/barcelona/2026-06-24/data/listings.csv.gz",
+      "retrieved": "2026-09-06",
+      "preparation": "Column selection; every record and selected field value retained. IDs remain text.",
+      "columns": [
+        "id",
+        "host_id",
+        "room_type",
+        "minimum_nights",
+        "latitude",
+        "longitude",
+        "neighbourhood_cleansed",
+        "last_scraped",
+        "number_of_reviews_ltm",
+        "last_review",
+        "license"
+      ],
+      "rows": 15293
+    },
+    {
+      "path": "raw/metadata/habitatges-us-turistic.json",
+      "sha256": "df787929d4daecdf02be312c99920f0686ed26d8f5fc2635b528c2ba4f7255c3",
+      "bytes": 118,
+      "source_sha256": "a68a497befd7346d4eddda585dd0641904aa048a9232b926f8c775d5a53f8d0d",
+      "source_url": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/package_show?id=habitatges-us-turistic",
+      "retrieved": "2026-09-06",
+      "preparation": "Selected the register resource ID and its source modification date."
+    }
+  ]
+}

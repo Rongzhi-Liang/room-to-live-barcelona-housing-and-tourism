@@ -1,0 +1,153 @@
+{
+  "name": "bcn_public_evidence_places",
+  "places": [
+    {
+      "id": 1,
+      "properties": {
+        "id": 1,
+        "evidence_id": "Q01",
+        "source_id": "eljardi_bonaplata",
+        "place_label": "Sarrià",
+        "barri_id": "23",
+        "date": "2024-05-03",
+        "event_date": "2024-03/2024-05",
+        "source_url": "https://diarieljardi.cat/fan-fora-de-casa-6-veins-carrer-bonaplata-20-sarria-fer-pisos-turistics/",
+        "claim_status": "reported_intention",
+        "location_precision": "neighbourhood",
+        "scope": "Sarrià; Carrer de Bonaplata",
+        "chapters": "01",
+        "maps": "M01",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household."
+      }
+    },
+    {
+      "id": 2,
+      "properties": {
+        "id": 2,
+        "evidence_id": "Q02",
+        "source_id": "policy_2026",
+        "place_label": "Barcelona",
+        "barri_id": "",
+        "date": "2026-02",
+        "event_date": "2028-11",
+        "source_url": "https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/144780/1/Pla%20d-Acci%C3%B3%20de%20Govern%202023-2027%20-%20actualitzat%20a%20Febrer%202026.pdf",
+        "claim_status": "future_policy_target",
+        "location_precision": "city",
+        "scope": "Barcelona",
+        "chapters": "02",
+        "maps": "M02",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household."
+      }
+    },
+    {
+      "id": 3,
+      "properties": {
+        "id": 3,
+        "evidence_id": "Q03",
+        "source_id": "abdt_2024",
+        "place_label": "Barcelona",
+        "barri_id": "",
+        "date": "2024-11-20",
+        "event_date": "2024-11-20",
+        "source_url": "https://assembleabarris.wordpress.com/2024/11/20/labdt-presenta-el-mapa-web-cases-o-turisme/",
+        "claim_status": "organisation_position",
+        "location_precision": "city",
+        "scope": "Barcelona",
+        "chapters": "10|13",
+        "maps": "M09|M08",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household."
+      }
+    },
+    {
+      "id": 4,
+      "properties": {
+        "id": 4,
+        "evidence_id": "Q04",
+        "source_id": "favb_2026",
+        "place_label": "Barcelona",
+        "barri_id": "",
+        "date": "2026-07-15",
+        "event_date": "2026-07-15",
+        "source_url": "https://favb.cat/noticies/la-favb-alerta-que-el-lobby-dels-pisos-turistics-vol-esquivar-lextincio-de-llicencies-el-2028/",
+        "claim_status": "organisation_position",
+        "location_precision": "city",
+        "scope": "Barcelona; named neighbourhoods are discussed but this is a citywide statement",
+        "chapters": "10|13",
+        "maps": "M09|M08",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household."
+      }
+    },
+    {
+      "id": 5,
+      "properties": {
+        "id": 5,
+        "evidence_id": "Q05",
+        "source_id": "allocation_bases",
+        "place_label": "la Dreta de l’Eixample · Diputació 354",
+        "barri_id": "07",
+        "date": "2025-12-05",
+        "event_date": "2025-12-05",
+        "source_url": "https://seuelectronica.ajuntament.barcelona.cat/APPS/ofhreghabitatge/ShowFile.do?ruta=BASES_DIPUTACIO_354_VDEF8159365651548724126.pdf",
+        "claim_status": "allocation_rules_and_draw_documented",
+        "location_precision": "neighbourhood",
+        "scope": "Diputació 354; nearby-neighbourhood territorial reserve",
+        "chapters": "12",
+        "maps": "M09",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household.",
+        "supporting_source_ids": "allocation_resolution|allocation_bases|allocation_draw|allocation_detail"
+      }
+    },
+    {
+      "id": 6,
+      "properties": {
+        "id": 6,
+        "evidence_id": "Q06",
+        "source_id": "sant_antoni_association",
+        "place_label": "Sant Antoni",
+        "barri_id": "10",
+        "date": "2017-06",
+        "event_date": "2017-02/2017-03",
+        "source_url": "https://linformatiusantantoni.blogspot.com/2017/06/sobre-lestat-actual-del-barri.html",
+        "claim_status": "dated_neighbourhood_position",
+        "location_precision": "neighbourhood",
+        "scope": "Sant Antoni",
+        "chapters": "10",
+        "maps": "M09",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household."
+      }
+    },
+    {
+      "id": 7,
+      "properties": {
+        "id": 7,
+        "evidence_id": "Q07",
+        "source_id": "montbau_association",
+        "place_label": "Montbau",
+        "barri_id": "40",
+        "date": "",
+        "event_date": "1956/1960",
+        "source_url": "https://www.veinsmontbau.org/services.html",
+        "claim_status": "neighbourhood_history",
+        "location_precision": "neighbourhood",
+        "scope": "Montbau",
+        "chapters": "10",
+        "maps": "M09",
+        "geometry_source": "Ajuntament de Barcelona / CartoBCN product 102",
+        "geometry_snapshot_date": "2026-09-06",
+        "location_note": "Context area only; this geometry does not locate an individual household."
+      }
+    }
+  ]
+}
