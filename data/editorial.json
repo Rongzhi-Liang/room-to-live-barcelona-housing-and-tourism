@@ -1,0 +1,642 @@
+{
+  "title": {
+    "en": "Room to Live",
+    "zh": "住下来的空间"
+  },
+  "subtitle": {
+    "en": "Tourist homes and the cost of renting in Barcelona",
+    "zh": "巴塞罗那的旅游住房与租房成本"
+  },
+  "objective": {
+    "en": "This map story asks where registered tourist homes are concentrated in Barcelona, how closely that geography overlaps with new-lease rents and recent rent growth, and what would turn the end of tourist use into housing residents can rent. It combines official neighbourhood statistics, public Airbnb listings and documented housing cases to distinguish the reach of tourism policy from the wider problem of access to a home.",
+    "zh": "本地图故事追问：巴塞罗那的已登记旅游住房集中在哪里，与新签租约的租金及近期涨幅有多大重合；停止旅游用途之后，还需要哪些条件，住房才能供居民租住？研究结合官方街区统计、Airbnb 公开房源和有记录的住房案例，考察旅游住房政策能够触及哪些地方，以及居民租房问题中还有哪些部分需要其他措施。"
+  },
+  "storyIntention": {
+    "en": "A reported tenancy dispute introduces the housing question. The story then explains the 2028 tourist-home policy, separates Airbnb listings from official registrations, and maps rents, rent growth and new contracts. Overlap maps and two contrasting neighbourhoods show where tourism policy reaches. Changes in platform listings lead to a public housing case, where ownership, rent and lease duration make the route to a resident’s home concrete.",
+    "zh": "故事从一段公开报道的租住经历出发，解释 2028 年旅游住房政策，区分 Airbnb 房源与官方登记，再比较租金、涨幅和新签合同的分布。重合地图与两个街区的对照揭示政策的空间范围。随后从平台房源减少转向公共住房案例，具体说明房屋由谁管理、租金多少、租期多长，如何影响居民能否安居。"
+  },
+  "chapters": [
+    {
+      "id": "01",
+      "map": "M01",
+      "sourceIds": [
+        "eljardi_bonaplata",
+        "cartobcn_boundaries"
+      ],
+      "eyebrow": {
+        "en": "Barcelona · A housing question",
+        "zh": "巴塞罗那 · 谁能在这里安家"
+      },
+      "title": {
+        "en": "One city, two uses for a home",
+        "zh": "同一座城，住房的两种用途"
+      },
+      "body": {
+        "en": "In Barcelona, an apartment can be a resident’s home or accommodation for visitors. In May 2024, local newspaper El Jardí reported that Francesc, a tenant of thirty years in Sarrià, had received notice that his lease would not be renewed. The report described the owner’s intention to introduce tourist accommodation in the building.\n\nThat experience raises a citywide question: where are tourist homes concentrated, and do those neighbourhoods also have the highest rents or the fastest increases? The answer matters for a city seeking to return tourist homes to residential use.",
+        "zh": "在巴塞罗那，一套公寓既可能是居民长期租住的家，也可能用于接待游客。2024 年 5 月，地方媒体 El Jardí 报道，已在 Sarrià 居住三十年的租户 Francesc 收到了不续租通知；报道同时提到，业主有意在楼内经营旅游住宿。\n\n这段经历引出一个全市性的问题：旅游住房集中在哪些街区？这些地方，是否也是租金最高、上涨最快的地方？巴塞罗那正试图让旅游住房重新用于居民生活，这个问题关系到政策能够帮助哪些地方。"
+      },
+      "microNote": {
+        "en": "Orange lines mark Barcelona’s city boundary and its 10 districts. The reported tenancy was in Sarrià; publication date: 3 May 2024.",
+        "zh": "橙线标示巴塞罗那市界及 10 个行政区的区界。报道中的租住经历发生在 Sarrià，刊于 2024 年 5 月 3 日。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "02",
+      "map": "M02",
+      "diagram": "D01",
+      "sourceIds": [
+        "policy_2024_announcement",
+        "policy_2026",
+        "decree_2023",
+        "court_2025",
+        "hut_data"
+      ],
+      "eyebrow": {
+        "en": "Barcelona · The November 2028 target",
+        "zh": "巴塞罗那 · 2028 年 11 月的政策目标"
+      },
+      "title": {
+        "en": "From tourist use to residential use",
+        "zh": "旅游住房，如何重新用于居住"
+      },
+      "body": {
+        "en": "Barcelona plans not to renew existing tourist-home permits in November 2028. These permits allow dwellings, known as HUT, to operate as tourist accommodation. Ending that permission would make the homes available for residential use; it would not require every owner to offer a long-term rental.\n\nThe opening account predates the city’s June 2024 announcement of this plan. The map shows where registered tourist homes are located. Their distribution helps identify where the policy could release housing, before we ask how that geography relates to the rental market.",
+        "zh": "巴塞罗那计划在 2028 年 11 月不再续发既有旅游住房的经营许可。这类住房称为 HUT，获准用于接待游客。停止这项许可，意味着房屋不能再按该许可经营旅游住宿，可以转作居民住宅；但并不等于每位业主都必须把房屋投入长期租赁市场。\n\n开篇报道发表于 2024 年 5 月，早于市府同年 6 月宣布这项计划。地图展示已登记旅游住房的位置。先看清政策涉及的住房在哪里，才能进一步判断它与居民面对的租赁市场有多大重合。"
+      },
+      "microNote": {
+        "en": "2028 is the city’s policy target. Register updated 21 May 2026.",
+        "zh": "2028 年是市府的政策目标。登记表更新于 2026 年 5 月 21 日。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "03",
+      "map": "M01",
+      "chart": "C01",
+      "sourceIds": [
+        "rent_data"
+      ],
+      "eyebrow": {
+        "en": "2019–2025 · Barcelona’s registered rents",
+        "zh": "2019—2025 · 巴塞罗那租约登记统计"
+      },
+      "title": {
+        "en": "The price of a new lease",
+        "zh": "新签一份租约，要付多少钱"
+      },
+      "body": {
+        "en": "For residents looking for a home, the rent agreed in a new lease sets the cost of entering the market. The average agreed rent moved from €13.98/m²/month in 2019 to €13.21 in 2021, then €16.67 in 2025.\n\nThe city average shows the scale of the increase, but it cannot tell someone which neighbourhood they can afford. That requires a closer view of local prices. Before comparing neighbourhoods, we also need to distinguish what the tourist-accommodation data actually count: a room on Airbnb, an entire apartment, or an officially registered tourist home.",
+        "zh": "对正在找房的居民而言，新签租约约定的租金，决定了进入租赁市场的成本。全市新签租约的平均租金从 2019 年的每平方米每月 13.98 欧元，降至 2021 年的 13.21 欧元，再升至 2025 年的 16.67 欧元。\n\n全市平均值说明了租房成本的变化，却还不能回答居民在哪个街区负担得起住房。我们需要进一步比较各地的价格。在此之前，也要弄清旅游住宿数据究竟记录了什么：Airbnb 上的一间客房、一整套公寓，还是官方登记的旅游住房。"
+      },
+      "microNote": {
+        "en": "Annual averages of newly registered leases, in euros per m² per month. These are agreed rents, not advertised asking prices.",
+        "zh": "新登记租约的年度平均租金，单位为欧元／平方米／月；记录的是合同租金，而非房源挂牌价。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "04",
+      "map": "M03",
+      "chart": "C02",
+      "sourceIds": [
+        "platform_data"
+      ],
+      "eyebrow": {
+        "en": "Airbnb · Room types and minimum stays",
+        "zh": "Airbnb · 房源类型与最短入住要求"
+      },
+      "title": {
+        "en": "What does an Airbnb listing offer?",
+        "zh": "Airbnb 上出租的，是房间还是整套房"
+      },
+      "body": {
+        "en": "Inside Airbnb collects publicly visible Airbnb listings. Each record describes an accommodation offer, which may be an entire home, a private room, a shared room or a hotel room. Entire homes account for 10,844 of 15,293 listings (70.9%); 5,527 advertise a minimum stay of at least 31 nights.\n\nEach square covers 500 × 500 metres. “Entire-home %” divides the cell’s entire-home listings by its listings with a known room type. It shows the local mix, not the cell’s share of Barcelona. These Airbnb records and official HUT registrations describe different things and are counted separately.",
+        "zh": "本页使用 Inside Airbnb 从 Airbnb 公开页面整理的房源数据。每条记录对应一个住宿房源，可能是整套住房、独立房间、共享房间或酒店房间。15,293 条房源中，10,844 条为整套住房，占 70.9%；按最短入住要求统计，5,527 条房源要求至少预订 31 晚。\n\n每个方格为 500 × 500 米。“格内整套占比”是该格内整套房源数除以该格内房型已知的房源数，反映这一小片区域的房型组成，并非该格占全市的份额。Airbnb 房源与官方 HUT 登记的统计对象不同，因此分别计数。"
+      },
+      "microNote": {
+        "en": "Hotel rooms account for 68 listings (0.4%) in this Airbnb sample, not the city’s entire hotel stock. Latest batch collected 24 June–3 July 2026; locations are approximate.",
+        "zh": "酒店房间有 68 条，占本次 Airbnb 样本的 0.4%，并非全市酒店客房数量。最新批次采集于 2026 年 6 月 24 日至 7 月 3 日；位置为近似坐标。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "05",
+      "map": "M04",
+      "sourceIds": [
+        "hut_data",
+        "cadastre_data"
+      ],
+      "eyebrow": {
+        "en": "2026 · Tourist homes relative to housing stock",
+        "zh": "2026 · 每千套住宅的旅游住房登记数"
+      },
+      "title": {
+        "en": "How concentrated are tourist homes?",
+        "zh": "旅游住房在多大程度上集中"
+      },
+      "body": {
+        "en": "A large neighbourhood can contain many tourist homes without having the highest concentration. Sant Antoni has fewer registrations than la Vila de Gràcia (667 versus 799), but greater intensity: 33.0 versus 25.1 per 1,000 homes.\n\nDividing registrations by the number of residential units, then multiplying by 1,000, makes neighbourhoods of different sizes comparable. The result identifies where registered tourist homes form a larger part of the housing stock. Those places may offer more scope for a change in use. Whether they are also the most expensive rental markets is a separate question.",
+        "zh": "一个街区的旅游住房数量多，未必意味着它在当地住宅中占的比例高。Sant Antoni 有 667 条登记，少于 la Vila de Gràcia 的 799 条；但换算到每千套住宅，前者为 33.0 条，后者为 25.1 条。\n\n将登记数除以街区住宅数，再乘以 1,000，就能比较大小不同的街区。地图由此指出，哪些地方有更大比例的住房登记为旅游用途。这些地方存在较多可调整用途的住房，但它们是否也是租金最贵的地方，还需要继续比较。"
+      },
+      "microNote": {
+        "en": "Official HUT registrations per 1,000 residential units recorded in the cadastre; both use 2026 data.",
+        "zh": "指标为每 1,000 套地籍住宅对应的 HUT 登记数；两项数据均采用 2026 年记录。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "06",
+      "map": "M05",
+      "sourceIds": [
+        "rent_data"
+      ],
+      "eyebrow": {
+        "en": "2025 · Neighbourhood rent differences",
+        "zh": "2025 · 街区之间的租金差异"
+      },
+      "title": {
+        "en": "Where is a new lease more expensive?",
+        "zh": "哪些街区的租金更高"
+      },
+      "body": {
+        "en": "Barcelona’s rental market looks different from one neighbourhood to another. Rent per square metre helps compare homes of different sizes. Sarrià averaged €20.49/m²/month; in Sant Antoni, the figure was €16.26.\n\nThe difference matters to someone choosing where to live, but a higher rent does not reveal why that place is expensive. Location, housing characteristics and the wider market may also matter. We next compare these prices with their recent changes: the most expensive neighbourhood need not be the one where rents have risen fastest.",
+        "zh": "巴塞罗那不同街区的租房成本相差明显。按每平方米租金比较，可以减少住宅面积不同对价格比较的影响。Sarrià 的平均租金为每平方米每月 20.49 欧元，Sant Antoni 则为 16.26 欧元。\n\n这种差价直接影响居民选择住在哪里，却不能单独解释某个街区为什么贵。地段、房屋条件和整体市场都可能有关。下一步，把现在的价格与前几年的涨幅对照：租金最高的街区，未必也是上涨最快的街区。"
+      },
+      "microNote": {
+        "en": "2025 annual average, euros per m² per month. Areas without sufficiently reliable data are shown separately.",
+        "zh": "2025 年全年平均租金，单位为欧元／平方米／月；数据不足以可靠比较的街区另行标示。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "07",
+      "map": "M06",
+      "chart": "C01",
+      "sourceIds": [
+        "rent_data",
+        "rent_regulation_2024"
+      ],
+      "eyebrow": {
+        "en": "2022–2025 · Change in average rents",
+        "zh": "2022—2025 · 平均租金的涨跌"
+      },
+      "title": {
+        "en": "High rents, or fast-rising rents?",
+        "zh": "租金高，还是涨得快"
+      },
+      "body": {
+        "en": "The map now shows how much average new-lease rents changed between 2022 and 2025. Montbau's average rose 30.1%, compared with 12.6% in Sarrià, despite Sarrià's higher 2025 price.\n\nBarcelona also introduced rent limits for new residential leases on 16 March 2024. The applicable ceiling is generally based on the most recent rent in the preceding five years, with an additional reference-price limit for large landlords. This period therefore spans a change in rental rules. The map describes the change residents faced; it does not isolate the effect of tourism or rent regulation.",
+        "zh": "地图现在显示 2022—2025 年新签租约平均租金的涨跌幅度。Montbau 的平均租金上涨了 30.1%，Sarrià 上涨了 12.6%；到 2025 年，租金仍然是 Sarrià 更高。\n\n这期间，巴塞罗那于 2024 年 3 月 16 日开始对新签居民住宅租约实施租金限制：通常根据过去五年中最近一份租约的租金确定上限；持有较多住房、被认定为“大业主”的房东，还须遵守参考价格上限。因此，这段涨幅跨越了租金规则调整前后，不能直接归因于旅游住宿或租金管制。"
+      },
+      "microNote": {
+        "en": "Changes are not adjusted for inflation. The previous rent may be lawfully updated; the rules also contain exceptions.",
+        "zh": "涨跌幅未扣除通胀影响。前份租约租金可按法律规定调整；管制规则另有适用条件和例外。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "08",
+      "map": "M07",
+      "chart": "C03",
+      "sourceIds": [
+        "rent_data",
+        "cadastre_data"
+      ],
+      "eyebrow": {
+        "en": "2025 · New leases relative to housing stock",
+        "zh": "2025 · 每千套住宅的新签合同数"
+      },
+      "title": {
+        "en": "How many new leases are being signed?",
+        "zh": "新签租约变多了，还是变少了"
+      },
+      "body": {
+        "en": "Prices tell only part of the story. El Barri Gòtic recorded 51.9 contracts per 1,000 homes, against 31.2 in Montbau. Citywide, the total fell from 47,927 in 2022 to 30,789 in 2025.\n\nThe map shows where new leases were more common relative to the number of homes; the chart shows how the city’s total changed over time. Fewer recorded contracts mean fewer newly registered transactions, even when average rents remain high. They do not count all homes available to rent. Reading prices alongside contract numbers helps distinguish the cost of signing a lease from the volume of activity in the market.",
+        "zh": "租金之外，还要看实际登记了多少份新租约。el Barri Gòtic 每千套住宅记录 51.9 份新合同，Montbau 为 31.2 份。全市合同数则从 2022 年的 47,927 份降至 2025 年的 30,789 份。\n\n地图显示各街区相对于住宅规模的签约数量，图表则显示全市合同总数的年度变化。合同减少，说明新登记的租赁交易变少了；它并不直接等于待租房源减少了多少。把合同数量与租金放在一起，才能同时观察租房价格和市场中的签约活动。"
+      },
+      "microNote": {
+        "en": "Map: 2025 new leases per 1,000 residential units. Chart: total new leases registered citywide each year.",
+        "zh": "地图：2025 年每千套住宅的新签合同数。图表：各年全市登记的新签合同总数。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "09",
+      "map": "M08",
+      "chart": "C04",
+      "sourceIds": [
+        "hut_data",
+        "rent_data",
+        "cadastre_data",
+        "garcia_2020"
+      ],
+      "eyebrow": {
+        "en": "66 neighbourhoods · A shared comparison",
+        "zh": "66 个街区 · 放在一起比较"
+      },
+      "title": {
+        "en": "Do tourism and high rents coincide?",
+        "zh": "旅游住房多的地方，租金也高吗"
+      },
+      "body": {
+        "en": "Among 66 comparable neighbourhoods, the highest quarter for tourist-home intensity contains 17 neighbourhoods. Of those, 7 are also in the highest rent quarter, while only 1 is in the quarter with the fastest 2022–2025 rent growth.\n\nSarrià is in the high-rent group with relatively few registrations; Sant Antoni has high registration intensity without top-quarter rent. The scatterplots show the wider pattern: registration intensity is more closely associated with rent levels than with recent rent growth. Tourist homes and expensive rents often occupy similar parts of the city, but the places with the fastest increases follow a different pattern. That distinction sets a limit on what a policy aimed at tourist homes alone can address.",
+        "zh": "在可比较的 66 个街区中，旅游住房登记强度最高的四分之一包括 17 个街区。其中，7 个同时位于租金最高的四分之一；若比较 2022—2025 年租金涨幅，同时进入涨幅最高四分之一的只有 1 个。\n\nSarrià 属于高租金组，却不属于旅游住房高集中组；Sant Antoni 的情况恰好相反。散点图展示了更完整的格局：旅游住房登记强度与租金水平的关联较强，与近期涨幅的关联较弱。旅游住房较集中的地方往往也较贵，但涨得最快的地方并不一定在那里。仅针对旅游住房的政策，因此未必能够覆盖租金上涨最突出的所有街区。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "10",
+      "map": "M09",
+      "sourceIds": [
+        "sant_antoni_association",
+        "montbau_association",
+        "hut_data",
+        "rent_data",
+        "cadastre_data"
+      ],
+      "eyebrow": {
+        "en": "Sant Antoni and Montbau · A closer comparison",
+        "zh": "Sant Antoni 与 Montbau · 两个街区的对照"
+      },
+      "title": {
+        "en": "Similar rents, different housing contexts",
+        "zh": "租金相近，旅游住房却很不同"
+      },
+      "body": {
+        "en": "In Sant Antoni, 2025 new-lease rent averaged €16.26/m²/month; the 2026 register contains 33.0 tourist-home registrations per 1,000 homes. In Montbau, the corresponding rent was €15.47/m²/month, with no tourist-home entries in the adopted 2026 register.\n\nSimilar rents therefore coexist with very different numbers of registered tourist homes. A policy ending HUT use would concern many homes in Sant Antoni, while the adopted register identifies none in Montbau. Measures aimed at tourist homes alone would reach these two rental markets very differently. Sant Antoni’s neighbourhood association made a related distinction in 2017: it called for social rental housing alongside tourism restrictions.",
+        "zh": "在 Sant Antoni，2025 年新签租约的平均租金为每平方米每月 16.26 欧元；2026 年每千套住宅有 33.0 条旅游住房登记。在 Montbau，同期租金为每平方米每月 15.47 欧元，本次采用的 2026 年登记表中没有旅游住房记录。\n\n两地租金相近，已登记旅游住房的集中程度却差异很大。停止 HUT 用途会涉及 Sant Antoni 的一批住房，而本次登记表在 Montbau 没有识别出这类住房。仅针对旅游住房采取措施，对这两个租赁市场的覆盖范围会很不同。Sant Antoni 居民协会在 2017 年提出的诉求也包含两部分：限制旅游住宿，同时增加社会租赁住房。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "11",
+      "map": "M10",
+      "chart": "C05",
+      "sourceIds": [
+        "platform_data",
+        "allocation_resolution"
+      ],
+      "eyebrow": {
+        "en": "Four observations · September 2025–June 2026",
+        "zh": "四次采集 · 2025 年 9 月至 2026 年 6 月"
+      },
+      "title": {
+        "en": "Fewer Airbnb listings. More homes for residents?",
+        "zh": "Airbnb 房源减少，居民住房就增加了吗"
+      },
+      "body": {
+        "en": "Observed Airbnb listings fell from 19,410 in September 2025 to 15,293 in the June 2026 batch, a decline of 4,117 (21.2%). Between March and the June batch, 3,192 listing IDs were no longer observed, while 2,378 appeared that were absent in March.\n\nThis is a decline in the Airbnb listings visible in the data. A listing missing from the next observation may have been temporarily withdrawn or reposted under another ID; the property may also have changed use. To establish whether more homes are available for long-term residential rental, we would need to connect each property to a residential lease and check its rent and duration. The following public housing case shows what evidence of that next stage looks like.",
+        "zh": "采集到的 Airbnb 房源从 2025 年 9 月的 19,410 条，降至 2026 年 6 月批次的 15,293 条，减少 4,117 条（21.2%）。只看最后两期，3 月出现的 3,192 个房源编号在 6 月批次中未再出现，同时又出现了 3 月没有的 2,378 个编号。\n\n这些数字说明，数据中可见的 Airbnb 房源变少了。某条房源本期未再出现，可能是暂时下架、换编号重发，也可能对应房屋改作其他用途。要确认是否增加了居民可长期租住的住房，还需核对同一处房产是否签订了居民租约，以及租金和租期是什么。下一个公共住房案例，将这一后续环节变成了可以查证的具体程序。"
+      },
+      "microNote": {
+        "en": "The final batch was collected from 24 June to 3 July 2026. The date buttons change the period shown on the map.",
+        "zh": "最后一批数据采集于 2026 年 6 月 24 日至 7 月 3 日。点击日期，可切换地图显示的时期。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "12",
+      "map": "M09",
+      "diagram": "D02",
+      "sourceIds": [
+        "allocation_resolution",
+        "allocation_bases",
+        "allocation_draw",
+        "allocation_detail"
+      ],
+      "eyebrow": {
+        "en": "Diputació 354 · Public purchase and rental terms",
+        "zh": "Diputació 354 · 公共收购与出租条件"
+      },
+      "title": {
+        "en": "A home needs a rent, a lease and an allocation",
+        "zh": "从一套房，到一份可长期居住的租约"
+      },
+      "body": {
+        "en": "At Diputació 354, the city acquired a building and opened a programme to allocate 22 homes to young people. The rules set a base rent of €10.65/m²/month and leases of at least seven years. The allocation draw took place on 30 March 2026.\n\nThis case links housing supply to enforceable terms: who can apply, what they pay and how long the lease lasts. Public ownership and explicit rental rules provide a route from a property to a resident’s home. Signed leases and actual occupancy remain the final steps to establish.",
+        "zh": "在 Diputació 354，市府收购楼宇后，启动了面向青年的 22 套住房分配项目。规则明确了每平方米每月 10.65 欧元的基础租金，以及至少七年的租期。分配抽签已于 2026 年 3 月 30 日举行。\n\n这个案例明确了居民租住这批住房的条件：谁能申请、付多少租金、租期有多长。公共持有与具体规则，为房产转成居民可租的住房提供了一条路径。最终有没有签约、居民是否入住，则是还需继续核实的结果。"
+      },
+      "microNote": {
+        "en": "Base rent excludes stated charges of about €35 per month, plus utilities. Allocation is documented; signed leases and occupancy have not been verified.",
+        "zh": "基础租金之外，还有约每月 35 欧元的规定费用及水电等支出。已有分配程序记录，尚未核实最终签约与入住。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "13",
+      "map": "M08",
+      "sourceIds": [
+        "hut_data",
+        "rent_data",
+        "cadastre_data",
+        "allocation_bases",
+        "favb_2026"
+      ],
+      "eyebrow": {
+        "en": "From the map to neighbourhood priorities",
+        "zh": "从地图到街区的政策重点"
+      },
+      "title": {
+        "en": "The same policy reaches different housing markets",
+        "zh": "同一项政策，面对不同的住房问题"
+      },
+      "body": {
+        "en": "La Vila de Gràcia ranks in the top quarter for both tourist-home intensity and rent. Sarrià has high rents without high tourist-home intensity; Montbau stands out for rent growth.\n\nWhere tourist homes and high rents coincide, follow how many homes leaving tourist use become residential leases, and on what terms. In expensive or fast-rising neighbourhoods with few registered tourist homes, follow housing supply and rental activity beyond the tourism sector. A citywide withdrawal of HUT permits can have a concentrated geographical reach. Evaluating it only in tourist hotspots would leave other parts of the rental problem out of view.",
+        "zh": "la Vila de Gràcia 的旅游住房登记和租金都处于高值组；Sarrià 租金高，却不属于旅游住房高集中组；Montbau 的突出特征则是租金上涨较快。\n\n在旅游住房集中且租金高的街区，应追踪退出旅游用途的房屋中，有多少签订了居民租约、出租条件如何。在旅游住房较少、租金却高或涨得快的街区，还要追踪旅游住宿以外的住房供应和签约活动。一项全市统一的 HUT 许可政策，实际涉及的住房并不均匀分布。只观察旅游热点，就会漏看租赁市场中的其他问题。"
+      },
+      "microNote": {
+        "en": "Compare the rent-level and rent-growth views: the neighbourhoods requiring attention are not identical.",
+        "zh": "切换租金水平与涨幅，可以看到需要关注的街区并不完全相同。"
+      },
+      "requiredFields": []
+    },
+    {
+      "id": "14",
+      "map": "M01",
+      "sourceIds": [
+        "hut_data",
+        "rent_data",
+        "cadastre_data",
+        "allocation_bases",
+        "cartobcn_boundaries"
+      ],
+      "eyebrow": {
+        "en": "Barcelona · Judging the result",
+        "zh": "巴塞罗那 · 如何判断政策成效"
+      },
+      "title": {
+        "en": "What would count as room to live?",
+        "zh": "怎样才算真正增加了居住空间"
+      },
+      "body": {
+        "en": "Of the 17 neighbourhoods with the highest tourist-home registration intensity, 7 are also among the most expensive, but only 1 is among those with the fastest recent rent growth. Similar rents also coexist with very different tourist-home concentrations, as Sant Antoni and Montbau show.\n\nBarcelona’s 2028 target addresses the permitted use of homes. Its housing outcome will depend on what replaces that use. The strongest evidence would connect three changes: fewer homes operating as tourist accommodation, more homes offered under residential leases, and rental terms that residents can sustain. Permits measure the policy’s reach; rents, lease duration and occupancy show whether people gain a place to live. That is the test behind the opening question of who can remain.",
+        "zh": "旅游住房登记最集中的 17 个街区中，7 个也是租金最高的街区，只有 1 个进入近期涨幅最高的一组。Sant Antoni 与 Montbau 的对照还表明，相近的租金可以对应非常不同的旅游住房集中程度。\n\n巴塞罗那的 2028 年目标，首先改变的是住房获准用于什么。它最终带来多少居住空间，取决于之后的安排。判断成效，需要把三个变化连起来：旅游经营的住房是否减少、居民可签租约的住房是否增加、租金与租期是否让居民能够稳定生活。许可数量说明政策涉及了多少住房；租金、租期和实际入住，才说明居民是否得到了一个可以留下来的家。"
+      },
+      "microNote": {
+        "en": "Explore the neighbourhoods, read the method, or consult the original sources.",
+        "zh": "继续探索街区，查看研究方法，或阅读原始来源。"
+      },
+      "requiredFields": []
+    }
+  ],
+  "diagrams": [
+    {
+      "id": "D01",
+      "type": "timeline",
+      "title": {
+        "en": "How the tourist-home policy developed",
+        "zh": "旅游住房政策的形成过程"
+      },
+      "events": [
+        {
+          "date": "2023-11-09",
+          "status": "enacted",
+          "label": {
+            "en": "A new planning-permit requirement takes effect for tourist homes",
+            "zh": "旅游住房须取得规划许可的新制度生效"
+          },
+          "sourceIds": [
+            "decree_2023"
+          ]
+        },
+        {
+          "date": "2024-06-21",
+          "status": "announced",
+          "label": {
+            "en": "City announces it plans not to renew HUT permits in 2028",
+            "zh": "市府宣布计划在 2028 年不再续发 HUT 许可"
+          },
+          "sourceIds": [
+            "policy_2024_announcement"
+          ]
+        },
+        {
+          "date": "2025-03-13",
+          "status": "decided",
+          "label": {
+            "en": "Constitutional Court upholds the challenged decree",
+            "zh": "宪法法院驳回对该法令的违宪挑战"
+          },
+          "sourceIds": [
+            "court_2025"
+          ]
+        },
+        {
+          "date": "2026-02",
+          "status": "published_plan",
+          "label": {
+            "en": "City action plan retains the November 2028 target",
+            "zh": "市府行动计划继续列明 2028 年 11 月目标"
+          },
+          "sourceIds": [
+            "policy_2026"
+          ]
+        },
+        {
+          "date": "2028-11",
+          "status": "future_target",
+          "label": {
+            "en": "City target: existing HUT permits not renewed",
+            "zh": "市府目标：既有 HUT 许可不再续期"
+          },
+          "sourceIds": [
+            "policy_2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "type": "evidence_process",
+      "title": {
+        "en": "From a public purchase to a residential lease",
+        "zh": "从公共收购到居民租约"
+      },
+      "steps": [
+        {
+          "id": "acquisition",
+          "status": "documented",
+          "label": {
+            "en": "Public acquisition",
+            "zh": "公共收购"
+          },
+          "sourceIds": [
+            "allocation_resolution",
+            "allocation_bases"
+          ]
+        },
+        {
+          "id": "adaptation",
+          "status": "documented_mixed_progress",
+          "label": {
+            "en": "Works to meet housing standards",
+            "zh": "整修房屋，达到居住要求"
+          },
+          "sourceIds": [
+            "allocation_bases"
+          ]
+        },
+        {
+          "id": "allocation",
+          "status": "rules_and_draw_documented",
+          "label": {
+            "en": "Allocation rules and draw",
+            "zh": "分配规则与抽签"
+          },
+          "sourceIds": [
+            "allocation_resolution",
+            "allocation_draw"
+          ]
+        },
+        {
+          "id": "lease",
+          "status": "not_verified",
+          "label": {
+            "en": "Lease signed",
+            "zh": "签署租约"
+          },
+          "sourceIds": []
+        },
+        {
+          "id": "occupancy",
+          "status": "not_verified",
+          "label": {
+            "en": "Residents move in",
+            "zh": "居民入住"
+          },
+          "sourceIds": []
+        }
+      ]
+    }
+  ],
+  "methodsEditorial": {
+    "literature": {
+      "en": "García-López and colleagues (2020) studied Airbnb and Barcelona housing markets using a panel of 221 Basic Statistical Areas, with fixed-effects, instrumental-variable and event-study designs. Their evidence includes 2007–2017 advertised rents and prices. This project contributes a current spatial comparison of registration intensity and recorded new-lease conditions across barri, together with transparent counterexamples and implementation evidence. Its descriptive overlap is a different estimand from the paper's causal effect.",
+      "zh": "García-López 等人（2020）以 221 个基本统计区的面板，采用固定效应、工具变量和事件研究设计，研究 Airbnb 与巴塞罗那住房市场；证据包括 2007—2017 年广告租金与价格。本项目的贡献是以 barri 为单位，比较当前登记强度与有记录的新租约条件，保留透明选出的反例，并补充实施证据。描述性空间重合与该论文的因果效应属于不同估计对象。",
+      "sourceIds": [
+        "garcia_2020"
+      ]
+    },
+    "qualitativeEvidence": {
+      "en": "The Sarrià account is a dated published interview. Organisational statements record the position of the organisation, rather than an independently verified citywide count or a neighbourhood interview. The Diputació sources distinguish acquisition, works, allocation and draw from signed leases and occupancy. No photographs or application-level personal records are reproduced.",
+      "zh": "Sarrià 材料是有明确日期的公开采访。组织声明代表相应组织的立场，不等同于独立核实的全市统计或街区访谈。Diputació 材料区分收购、整修、分配与抽签，以及尚待核实的租约签署和入住。不转载新闻图片或申请者个人记录。"
+    },
+    "comparison": {
+      "en": "The main high-value definition is the upper quarter of the common sample (66 neighbourhoods), with a 30-contract quality threshold and confirmed geographical comparability. HUT intensity and rent-level ranks have Spearman correlation 0.74; the correlation with 2022–2025 rent change is 0.10. At high-value shares of 20%, 25% and 33%, the rent-level intersection is respectively 5, 7, 14 neighbourhoods; the growth intersection is 1, 1, 8. Alternative growth baselines give these intersections (2019: 5; 2023: 5). The precise high-value count is sensitive to the definition. The results establish spatial association, not the causal effect of tourist homes or policy.",
+      "zh": "主要高值定义为共同样本（66 个街区）的最高四分之一，采用 30 份合同的质量门槛，并要求统计地域可比。HUT 强度与租金水平的 Spearman 秩相关为 0.74，与 2022—2025 年租金变化的相关为 0.10。高值比例分别采用 20%、25%、33% 时，租金水平的重合街区数为 5、7、14，增幅的重合数为 1、1、8；采用其他增幅基期得到的重合数量为（2019 年：5 个；2023 年：5 个）。高值数量对定义敏感；结果描述空间关联，不是旅游住房或政策的因果效应。",
+      "sourceIds": [
+        "hut_data",
+        "rent_data",
+        "cadastre_data"
+      ]
+    },
+    "caseSelection": {
+      "en": "Sant Antoni and Montbau are the first-ranked pair among 178 candidates. The rule allows a rent gap no greater than half the common-sample standard deviation (€1.29/m²/month), requires opposite HUT high-value groups, and prioritises threshold-stable classifications, larger HUT gaps, then smaller rent gaps. Their 2025 contract counts are 729 and 80. The local-source check retained this first-ranked pair. The comparison is descriptive, and their historical records do not establish the cause of current rents.",
+      "zh": "Sant Antoni 与 Montbau 是 178 组候选中数值排序第一的组合。规则允许租金差不超过共同样本标准差的一半（每平方米每月 1.29 欧元），要求 HUT 高值分组相反，并优先采用阈值分类稳定、HUT 差较大、租金差较小的组合。两地 2025 年合同数分别为 729 与 80。地方案例来源核查后保留数值首位组合。这是描述性比较，历史材料不证明当前租金差异的原因。",
+      "sourceIds": [
+        "sant_antoni_association",
+        "montbau_association",
+        "rent_data",
+        "hut_data"
+      ]
+    },
+    "policyStatus": {
+      "en": "November 2028 remains the city's policy target. The Catalan decree includes a conditional extension application mechanism, and a court ruling on the decree does not resolve every later implementation dispute. The 2024 and 2026 rental-rule changes are contemporaneous context. Historical organisational statements about unregulated seasonal rental must be read at their publication date.",
+      "zh": "2028 年 11 月仍是市府政策目标。加泰罗尼亚法令包含须符合条件的延长申请机制，对法令的法院裁决也不等于所有后续实施争议均已解决。2024 与 2026 年的租赁规则变化属于同期背景；历史组织声明中关于季节租赁规制的表述，应放回其发表时间理解。",
+      "sourceIds": [
+        "policy_2026",
+        "decree_2023",
+        "court_2025",
+        "rent_regulation_2024",
+        "rental_rules_2026"
+      ]
+    },
+    "caseStatus": {
+      "en": "Diputació 354 is shown at neighbourhood scale, although the official programme identifies its public address. The rules document a mix of completed and continuing habitability works. A public draw is documented for 30 March 2026. The register page forecasts completion in 2026; signed leases and occupancy have not been independently established. Base rent excludes approximately €35 monthly stated charges and utilities. This is one public-acquisition pathway, not a universal mechanism for HUT conversion.",
+      "zh": "Diputació 354 按街区范围显示，尽管官方项目已明确公开地址。分配规则记载部分居住条件整修完成、部分仍在进行；2026 年 3 月 30 日的公开抽签已有记录。登记页预计 2026 年完成；尚未独立核实最终租约签署与入住。基础租金另有约每月 35 欧元规定费用和公用事业支出。这是一条公共收购路径，并非所有 HUT 转换的统一机制。",
+      "sourceIds": [
+        "allocation_bases",
+        "allocation_resolution",
+        "allocation_draw",
+        "allocation_detail"
+      ]
+    }
+  },
+  "methodSteps": [
+    {
+      "title": {
+        "en": "Gather the original evidence",
+        "zh": "先找齐原始资料"
+      },
+      "body": {
+        "en": "Use Barcelona’s official boundaries, tourist-home register, residential-unit counts and rental statistics. Add four public Inside Airbnb datasets covering September 2025 to June 2026, along with dated policy documents, reporting and housing-allocation records.",
+        "zh": "收集巴塞罗那的官方行政边界、旅游住房登记、住宅数量和租赁统计，再加入 2025 年 9 月至 2026 年 6 月的四批 Inside Airbnb 公开数据，以及注明日期的政策、报道和住房分配文件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Clean records without mixing different objects",
+        "zh": "清理记录，分清统计对象"
+      },
+      "body": {
+        "en": "Use R and RStudio to check dates, neighbourhood codes, duplicate identifiers and missing values. Keep uncertain tourist-home records in a separate review table. An Airbnb listing and a registered HUT are different records: analyse them separately. Link the four Airbnb datasets by listing ID to see which records persist, appear or disappear.",
+        "zh": "用 R 和 RStudio 整理日期、街区编号、重复记录和缺失值。旅游住房登记中尚不能确认的记录单独保留。Airbnb 房源与 HUT 登记统计的对象不同，分别分析；四批 Airbnb 数据则按房源编号相连，识别持续出现、本期出现和本期未出现的记录。"
+      }
+    },
+    {
+      "title": {
+        "en": "Put every record in the right place",
+        "zh": "把数据放到正确的地理位置"
+      },
+      "body": {
+        "en": "Use the official city, district and neighbourhood boundaries. In R and QGIS, join statistics by neighbourhood code and check locations against polygons. Use a coordinate system measured in metres to create a fixed 500 × 500 metre grid for Airbnb listings. The grid reduces the false impression that the platform’s approximate coordinates identify an exact doorstep.",
+        "zh": "采用官方市界、行政区和街区边界，在 R 与 QGIS 工作流程中按街区编号连接统计，并核对坐标落在哪个范围。先用米制坐标建立固定的 500 × 500 米网格，再汇总 Airbnb 房源，避免把平台的近似坐标画成精确门牌。"
+      }
+    },
+    {
+      "title": {
+        "en": "Calculate measures with clear denominators",
+        "zh": "用清楚的分母计算指标"
+      },
+      "body": {
+        "en": "For each neighbourhood, calculate HUT registrations per 1,000 homes using 2026 counts, and new leases per 1,000 homes using 2025 counts. Compare 2025 rent per square metre and the percentage change from 2022. Within each grid cell, divide entire-home listings by listings with a known room type in that cell.",
+        "zh": "每个街区的旅游住房登记数，用 2026 年住宅数换算成“每千套住宅有多少登记”；新签合同数则使用 2025 年住宅数。租金比较 2025 年每平方米的价格，以及相对 2022 年的涨跌幅。网格内整套占比，用本格的整套房源数除以本格中房型已知的房源数。"
+      }
+    },
+    {
+      "title": {
+        "en": "Compare the same set of neighbourhoods",
+        "zh": "在同一组街区中比较"
+      },
+      "body": {
+        "en": "Use the 66 neighbourhoods with comparable boundaries and enough rental records for both comparisons. Rank tourist-home intensity, rent levels and rent growth, then mark the highest quarter in each measure. Count the overlaps and plot one dot per neighbourhood. Repeat with the highest 20% and 33%, and with other starting years, to see which findings depend on the chosen rule.",
+        "zh": "主比较保留边界口径可比、租约记录足够的 66 个街区。分别对旅游住房登记强度、租金水平和租金涨幅排序，标出排名前四分之一的街区，计算重合数量，并把每个街区画成一个散点。再改用前 20%、前 33% 和其他起始年份，检查结论是否随规则改变。"
+      }
+    },
+    {
+      "title": {
+        "en": "Connect patterns to documented housing experiences",
+        "zh": "用具体材料解释数字意味着什么"
+      },
+      "body": {
+        "en": "Compare Sant Antoni and Montbau because their rents are close while their HUT registrations differ sharply. Read dated local accounts alongside the statistics. For Diputació 354, distinguish the public purchase, rental rules and allocation draw from the later steps of signing leases and moving in. These sources explain housing arrangements; they do not prove that tourism caused a particular rent.",
+        "zh": "选择租金接近、旅游住房登记差异显著的 Sant Antoni 与 Montbau 作对照，并结合有日期的地方材料。Diputació 354 则依次核查公共收购、出租规则和分配抽签，再与后续签约、入住区分开。这些材料帮助理解住房如何分配和使用，不能单独证明旅游住宿造成了某项租金变化。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build the maps",
+        "zh": "制作地图"
+      },
+      "body": {
+        "en": "Export four data groups: neighbourhood indicators, the HUT register, Airbnb grids and documented places. Use QGIS for spatial checks and styling, then HTML, CSS and TypeScript to build the Mapbox story.",
+        "zh": "导出四组地图数据：街区指标、HUT 登记、Airbnb 网格和公开材料对应的地点。利用 QGIS 项目检查空间数据和样式，再用 HTML、CSS、TypeScript 编写 Mapbox 故事网页。"
+      }
+    }
+  ],
+  "caseIds": [
+    "10",
+    "40"
+  ]
+}
